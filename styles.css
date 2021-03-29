@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(31, 26, 26);
+}
+#panel{
+    height: 714px;
+    width: 20%;
+    float:left;
+    margin: 5%;
+    padding: 2%;
+    color:salmon;
+}
+.gameBoard{
+    float:left;
+    height: 714px;
+    width: 714px;
+    border-style: solid;
+    border-width: 2px;
+    margin:0;
+    padding:0;
+    
+}
+.cell{
+    float: left;
+    height:100px;
+    width:100px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.cell-light{
+    background-color: rgb(146, 82, 9);
+}
+.cell-light:hover{
+    background-color: rgba(146, 82, 9, 0.700);
+}
+.cell-dark{
+    background-color: rgb(80, 31, 9);
+}
+.cell-dark:hover{
+    background-color:rgba(80, 31, 9, 0.700);
+}
+.cell-removed{
+    background-color: rgba(26, 1, 1, 0.562);
+}
+.cell-removed:hover{
+    background-color: rgba(26, 1, 1, 0.562);
+}
+.cell-player1{
+    background-color: #1a779c7a;
+}
+.cell-player1:hover{
+    background-color: #1a779c;
+}
+.cell-player2{
+    background-color: #0c7534a6;
+}
+.cell-player2:hover{
+    background-color: #0c7534;
+}
+}
